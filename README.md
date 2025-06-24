@@ -14,9 +14,14 @@ A simple, standalone Angular application that lets users convert temperatures be
 
 ---
 
+## Folder Structure
+![folderstructure](FolderStructure.png)
+
+
+
 ## 📸 Screenshot
 
-![screenshot](screenshot.png) <!-- Replace with actual image if available -->
+![screenshot](screenshot.png)
 
 ---
 
