@@ -32,7 +32,8 @@ A simple, standalone Angular application that lets users convert temperatures be
 - HTML & CSS
 - Standalone Component Architecture
 
-💡 Usage
+## 💡 Usage
+
 Enter a value in Celsius and click Convert to Fahrenheit.
 
 Optionally, enter a value in Fahrenheit and click Convert to Celsius.
