@@ -14,7 +14,7 @@ A simple, standalone Angular application that lets users convert temperatures be
 
 ---
 
-## 📸 Preview
+## 📸 Screenshot
 
 ![screenshot](screenshot.png) <!-- Replace with actual image if available -->
 
