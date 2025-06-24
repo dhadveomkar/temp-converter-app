@@ -1,59 +1,39 @@
-# TempConverterApp
+# 🌡️ Angular Temperature Converter App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.3.
+A simple, standalone Angular application that lets users convert temperatures between Celsius and Fahrenheit.
 
-## Development server
+---
 
-To start a local development server, run:
+## ✨ Features
 
-```bash
-ng serve
-```
+- ✅ Convert **Celsius ➝ Fahrenheit**
+- ✅ Optionally convert **Fahrenheit ➝ Celsius**
+- ⚡ Built entirely using **standalone components**
+- 🎯 Clean and responsive UI using HTML + CSS
+- 📦 Lightweight and easy to extend
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 📸 Preview
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+![screenshot](screenshot.png) <!-- Replace with actual image if available -->
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Technologies Used
 
-```bash
-ng generate --help
-```
+- [Angular 17+](https://angular.io/)
+- TypeScript
+- HTML & CSS
+- Standalone Component Architecture
 
-## Building
+💡 Usage
+Enter a value in Celsius and click Convert to Fahrenheit.
 
-To build the project run:
+Optionally, enter a value in Fahrenheit and click Convert to Celsius.
 
-```bash
-ng build
-```
+View the result immediately, rounded to 2 decimal places.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
