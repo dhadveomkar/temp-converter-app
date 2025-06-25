@@ -5,7 +5,9 @@
     <label>Celsius:</label>
     <input type="number" [(ngModel)]="celsius" />
     <button (click)="convertToFahrenheit()">Convert to Fahrenheit</button>
-    <p *ngIf="fahrenheit !== null">Fahrenheit: {{ fahrenheit | number:'1.2-2' }} °F</p>
+    @if (fahrenheit !== null) {
+    <p>Fahrenheit: {{ fahrenheit | number:'1.2-2' }} °F</p>
+  }
   </div>
 
   <hr />
@@ -14,6 +16,8 @@
     <label>Fahrenheit:</label>
     <input type="number" [(ngModel)]="fahrenheit" />
     <button (click)="convertToCelsius()">Convert to Celsius</button>
-    <p *ngIf="celsius !== null">Celsius: {{ celsius | number:'1.2-2' }} °C</p>
+    @if (celsius !== null) {
+    <p>Celsius: {{ celsius | number:'1.2-2' }} °C</p>
+  }
   </div>
 </div>
