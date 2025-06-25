@@ -106,6 +106,78 @@ toCelsius(fahrenheit: number): number {
 }
 ```
 
+## 🧱 Full Development Process
+
+This section outlines the step-by-step process followed to build the Temp Converter App using Angular.
+
+### 1. Project Setup
+
+- Installed Angular CLI globally:
+  ```bash
+  npm install -g @angular/cli
+  ```
+- Created a new Angular project:
+  ```bash
+  ng new temp-converter-app
+  ```
+- Selected options: Standalone components, no routing, and CSS for styling.
+
+### 2. Component Creation
+
+- Generated a standalone component for temperature conversion:
+  ```bash
+  ng generate component temp-converter --standalone
+  ```
+- This created:
+  - `temp-converter.ts`
+  - `temp-converter.html`
+  - `temp-converter.css`
+
+### 3. UI Design (HTML & CSS)
+
+- Created a simple form with two input fields: Celsius and Fahrenheit.
+- Used Angular’s two-way binding `[(ngModel)]` to link input fields with component properties.
+- Added minimal CSS for a clean layout.
+
+### 4. Logic Implementation (TypeScript)
+
+- Added two properties: `celsius` and `fahrenheit`.
+- Implemented conversion methods:
+  - `convertToFahrenheit()`
+  - `convertToCelsius()`
+- Triggered conversion on input events.
+
+### 5. Data Binding
+
+- Used:
+  - `[(ngModel)]` for two-way binding.
+  - `(input)` event for calling conversion methods.
+  - `*ngIf` for conditional rendering (if needed).
+
+### 6. Testing and Debugging
+
+- Tested in the browser by running:
+  ```bash
+  ng serve
+  ```
+- Validated logic and UI functionality.
+- Fixed minor bugs related to decimal formatting and empty input.
+
+### 7. Optimization
+
+- Prevented infinite loops by avoiding bi-directional conversion triggers.
+- Ensured input validation using `type="number"` and `min`, `max` attributes.
+
+### 8. Build and Deployment (Optional)
+
+- Built the production version:
+  ```bash
+  ng build
+  ```
+- Can be deployed on GitHub Pages, Firebase, or any static host.
+
+---
+
 
 
 
