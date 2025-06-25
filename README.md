@@ -1,45 +1,82 @@
-# 🌡️ Angular Temperature Converter App
+🌡️ Temp Converter App
+A simple and interactive web application that converts temperatures between Celsius and Fahrenheit using Angular. Ideal for learning about Angular components, event handling, two-way binding, and data interpolation.
 
-A simple, standalone Angular application that lets users convert temperatures between Celsius and Fahrenheit.
-
----
-
-## ✨ Features
-
-- ✅ Convert **Celsius ➝ Fahrenheit**
-- ✅ Optionally convert **Fahrenheit ➝ Celsius**
-- ⚡ Built entirely using **standalone components**
-- 🎯 Clean and responsive UI using HTML + CSS
-- 📦 Lightweight and easy to extend
-
----
-
-## Folder Structure
-![folderstructure](FolderStructure.png)
-
-
-
-## 📸 Screenshot
-
+📸 Preview
 ![screenshot](screenshot.png)
 
----
+🛠️ Features
+🔁 Convert between Celsius and Fahrenheit in real time
 
-## 🛠️ Technologies Used
+📲 Two-way data binding for seamless user interaction
 
-- [Angular 17+](https://angular.io/)
-- TypeScript
-- HTML & CSS
-- Standalone Component Architecture
+✅ Form validation to ensure correct numeric input
 
-## 💡 Usage
+🎯 Modular architecture with standalone Angular components
 
-Enter a value in Celsius and click Convert to Fahrenheit.
+🚀 Technologies Used
+Angular (v17 or later)
 
-Optionally, enter a value in Fahrenheit and click Convert to Celsius.
+TypeScript
 
-View the result immediately, rounded to 2 decimal places.
+HTML & CSS
 
+Node.js (for running the development server)
+
+📂 Project Structure
+plaintext
+Copy
+Edit
+temp-converter-app/
+│
+├── src/
+│   ├── app/
+│   │   ├── temp-converter/
+│   │   │   ├── temp-converter.ts
+│   │   │   ├── temp-converter.html
+│   │   │   └── temp-converter.css
+│   │   └── app.component.ts
+│   └── index.html
+├── angular.json
+├── package.json
+└── README.md
+🧑‍💻 Getting Started
+Prerequisites
+Node.js & npm installed
+
+Angular CLI installed (npm install -g @angular/cli)
+
+Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/temp-converter-app.git
+Navigate to the project directory:
+
+bash
+Copy
+Edit
+cd temp-converter-app
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Running Locally
+bash
+Copy
+Edit
+ng serve
+Open your browser at http://localhost:4200
+
+✏️ How It Works
+User inputs a temperature in either Celsius or Fahrenheit.
+
+The app uses a conversion formula to update the other field.
+
+Two-way binding ([(ngModel)]) keeps the inputs in sync.
 
 
 
