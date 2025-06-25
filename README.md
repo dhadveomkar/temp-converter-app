@@ -1,26 +1,26 @@
-🌡️ Temp Converter App
+##🌡️ Temp Converter App
 
 A simple and interactive web application that converts temperatures between Celsius and Fahrenheit using Angular. Ideal for learning about Angular components, event handling, two-way binding, and data interpolation.
 
-📸 Preview
+##📸 Preview
 
 ![screenshot](screenshot.png)
 
-🛠️ Features
+##🛠️ Features
 
 - 🔁 Convert between Celsius and Fahrenheit in real time  
 - 📲 Two-way data binding for seamless user interaction  
 - ✅ Form validation to ensure correct numeric input  
 - 🎯 Modular architecture with standalone Angular components  
 
-🚀 Technologies Used
+##🚀 Technologies Used
 
 - Angular
 - TypeScript
 - HTML & CSS
 - Node.js
 
-📂 Project Structure
+##📂 Project Structure
 
 temp-converter-app/
 │
@@ -38,7 +38,7 @@ temp-converter-app/
 
 
 
-🔽 How to Clone the Project
+##🔽 How to Clone the Project
 
 To get a local copy of the project on your machine, run the following commands:
 
@@ -53,7 +53,7 @@ cd temp-converter-app
 
 > Note: Replace your-username with your actual GitHub username.
 
-🧑‍💻 Getting Started
+##🧑‍💻 Getting Started
 
 Prerequisites
 
@@ -70,7 +70,7 @@ ng serve
 
 Open http://localhost:4200 to view it in the browser.
 
-✏️ How It Works
+##✏️ How It Works
 
 - User inputs a temperature in either Celsius or Fahrenheit.
 - The app automatically updates the converted temperature using Angular logic and binding.
